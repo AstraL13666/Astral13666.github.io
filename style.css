@@ -1,0 +1,34 @@
+H3 {
+    text-transform: uppercase;
+    color: blueviolet;
+}
+
+body {
+	text-align: center;
+	font-size: 14px;
+    font-family: monospace;
+	color: var(--tg-theme-text-color);
+	background: var(--tg-theme-bg-color);
+}
+
+.container {
+	max-width: 390px;
+}
+
+.inner {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto auto;
+}
+
+.img {
+	width: 75px;
+}
+
+.item {
+	text-align: center;
+}
+
+.quest {
+    text-align: left;
+}

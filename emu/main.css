@@ -1,0 +1,114 @@
+H4 {
+    font-family: monospace;
+    text-align: center;
+    color: blueviolet;
+    text-transform: uppercase;
+}
+
+.container {
+    max-width: 390px;
+}
+
+body {
+    background: url(https://klike.net/uploads/posts/2022-09/1662044139_j-17.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+  }
+  
+  .object {
+    border-radius: 100%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .p-orbit, #m-orbit{
+    border: 0.1vmin solid dimgrey;
+    opacity: 0.1;
+    background: transparent;
+  }
+
+  #belt {
+    height: 55vmin;
+    width: 55vmin;
+    animation: spin 50s infinite linear;
+    position: absolute;
+    margin: auto;
+  }
+  
+  @keyframes spin{
+    0%{ transform: rotate(0deg) }
+    100%{ transform: rotate(360deg) }
+  }
+  
+  #m-orbit {
+    height: 4.5vmin;
+    width: 4.5vmin;
+  }
+  
+  .planet {
+    z-index: 100;
+  }
+  
+  #sun {
+    height: 5vmin;
+    width: 5vmin;
+    animation: sunspin 25s infinite linear;
+  }
+
+  @keyframes sunspin{
+    0%{ transform: rotate(0deg) }
+    100%{ transform: rotate(360deg) }
+  }
+  
+  #mercury {
+    height: 2vmin;
+    width: 2vmin;
+  }
+  
+  #venus {
+    height: 2.1vmin;
+    width: 2.1vmin;
+  }
+  
+  #earth {
+    height: 2.2vmin;
+    width: 2.2vmin;
+  }
+
+  #moon {
+    height: 1.5vmin;
+    width: 1.5vmin;
+  }
+  
+  #mars {
+    height: 2.2vmin;
+    width: 2.2vmin;
+  }
+  
+  #jupiter {
+    height: 5vmin;
+    width: 5vmin;
+  }
+  
+  #saturn {
+    height: 4vmin;
+    width: 4vmin;
+    border-radius: 0%;
+  }
+  
+  #uranus {
+    height: 3vmin;
+    width: 3vmin;
+  }
+  
+  #neptune {
+    height: 2vmin;
+    width: 2vmin;
+  }
