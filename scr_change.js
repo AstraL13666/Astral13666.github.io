@@ -73,9 +73,9 @@ function changeText() {
         changeButton.innerText = "Русский"
         simulationButton.innerText = "Симуляция"
         
-        tabCap.innerHTML = "<p><i><b>Привет, юный любитель космоса</b></i><br>Здесь ты найдешь краткую информацию о солнечной системе<br><br>Изменить язык - <u>правая кнопка</u><br>Обзор Солнечной системы - <u>левая</u></p>"
+        tabCap.innerHTML = "<p><i><b>Привет, юный любитель космоса</b></i><br>Здесь ты найдешь краткую информацию о Солнечной системе<br><br>Изменить язык - <u>правая кнопка</u><br>Обзор Солнечной системы - <u>левая</u></p>"
         tabGenTitle.innerHTML = "Солнечная система"
-        tabGenDesc.innerHTML = "Это планетарная система<br>со звездой в центре: <b>Солнцем</b><br> Солнечная система образовалась<br>4.57 млрд. лет назад в результате гравитационного сжатия газо-пылевого облака.<br><br>Солнечная система делится на 2 группы:<br><br><u>1 группа - планеты земной группы:</u><br> Меркурий, Венера, Земля и Марс.<br><br><u>2 группа - планеты гиганты:</u><br> Юпитер, Сатурн, Уран и Нептун.<br><br>Так же в Солнечной системе есть<br>области с планетами малых размеров,<br>а так же две области астеройдов<br><br>Первая область астеройдов:<br><u>Пояс астеройдов</u> - она расположена между Марсом и Юпитером<br><br>Вторая область астеройдов:<br><u>Пояс Койпера</u> - расположенная за Нептуном<br><br> Солнечная система находится в составе галактики Млечный путь.<br>"
+        tabGenDesc.innerHTML = "Это планетарная система<br>со звездой в центре: <b>Солнце</b><br> Солнечная система образовалась<br>4.57 млрд. лет назад в результате гравитационного сжатия газо-пылевого облака.<br><br>Солнечная система делится на 2 группы:<br><br><u>1 группа - планеты земной группы:</u><br> Меркурий, Венера, Земля и Марс.<br><br><u>2 группа - планеты гиганты:</u><br> Юпитер, Сатурн, Уран и Нептун.<br><br>Так же в Солнечной системе есть<br>области с планетами малых размеров,<br>а так же две области астеройдов<br><br>Первая область астеройдов:<br><u>Пояс астеройдов</u> - она расположена между Марсом и Юпитером<br><br>Вторая область астеройдов:<br><u>Пояс Койпера</u> - расположенная за Нептуном<br><br> Солнечная система находится в составе галактики Млечный путь.<br>"
 
         tabObjSys.innerHTML = "Объекты Солнечной системы"
 
@@ -84,19 +84,19 @@ function changeText() {
         planetSunDesc.innerHTML = "<p>Центр системы<br>Экватор: 4,37⋅10^6<br>Объём: 1,40⋅10^27<br>Масса: 1,98⋅10^30<br>Спутников: 8</p>"
 
         planetMerName.innerText = "Меркурий"
-        planetMerType.innerText = "Земной группа"
+        planetMerType.innerText = "Земная группа"
         planetMerDesc.innerHTML = "<p>1 планета<br>Экватор: 15329<br>Объём: 6,08⋅10^10<br>Масса: 3,33⋅10^23<br>Спутников: 0</p>"
 
         planetVenName.innerText = "Венера"
-        planetVenType.innerText = "Земной группа"
+        planetVenType.innerText = "Земная группа"
         planetVenDesc.innerHTML = "<p>2 планета<br>Экватор: 38025<br>Объём: 9,38⋅10^11<br>Масса: 4,86⋅10^24<br>Спутников: 0</p>"
 
         planetEarName.innerText = "Земля"
-        planetEarType.innerText = "Земной группа"
+        planetEarType.innerText = "Земная группа"
         planetEarDesc.innerHTML = "<p>3 планета<br>Экватор: 40075<br>Объём: 10,08⋅10^12<br>Масса: 5,97⋅10^24<br>Спутников: 1</p>"
 
         planetMarName.innerText = "Марс"
-        planetMarType.innerText = "Земной группа"
+        planetMarType.innerText = "Земная группа"
         planetMarDesc.innerHTML = "<p>4 планета<br>Экватор: 21343<br>Объём: 1,63⋅10^11<br>Масса: 6,41⋅10^23<br>Спутников: 2</p>"
 
         planetJupName.innerText = "Юпитер"
@@ -116,7 +116,7 @@ function changeText() {
         planetNepDesc.innerHTML = "<p>8 планета<br>Экватор: 49528<br>Объём: 6,25⋅10^13<br>Масса: 10,02⋅10^26<br>Спутников: 14</p>"
 
         planetPluName.innerText = "Плутон"
-        planetPluType.innerText = "Транснептуновый объект"
+        planetPluType.innerText = "Транснептуновый"
         planetPluDesc.innerHTML = "<p>9 планета<br>Экватор: 2370<br>Объём: 7⋅10^9<br>Масса: 1,30⋅10^22<br>Спутников: 5</p>"
 
         planetMonName.innerText = "Луна"
@@ -149,7 +149,7 @@ function changeText() {
         changeButton.innerText = "English"
         simulationButton.innerText = "Simulation"
 
-        tabCap.innerHTML = "<p><i><b>Greetings, young space lover</b></i><br>Here is information about the solar system.<br><br>To change the language - <u>right button</u><br>Overview of the solar system - <u>left button</u></p>"
+        tabCap.innerHTML = "<p><i><b>Greetings, young space lover</b></i><br>Here is information about the solar system.<br><br>To change the language - <u>right button</u><br>Overview of the solar system - <u>left</u></p>"
         tabGenTitle.innerHTML = "THE SOLAR SYSTEM"
         tabGenDesc.innerHTML = "This's a planetary system that includes the central star the Sun and all natural space objects in heliocentric orbits.<br> It was formed by gravitational compression of a gas-dust cloud about 4.57 billion years ago.<br><br> <u>The four planets closest to the Sun are the terrestrial planets:</u><br> Mercury, Venus, Earth and Mars.<br><br> <u>The four planets more distant from the Sun are giant planets:</u><br> Jupiter, Saturn, Uranus and Neptune.<br><br> There are two regions in the Solar System filled with small bodies.<br><br> The asteroid belt located between Mars and Jupiter and beyond the orbit of Neptune are trans-Neptunian objects.<br><br> The solar system is part of the structure of the Milky Way galaxy.<br>"
     
