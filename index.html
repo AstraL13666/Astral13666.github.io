@@ -9,207 +9,154 @@
 
 <body>
 <div class="container">
-
-    <div class="description">
-        <h3>Solar system</h3>
-        <p>
-            The <i><b>solar system</b></i> is a planetary system that includes the central star the <i><b>Sun</b></i>
-            and all natural space objects in heliocentric orbits.<br>
-            It was formed by gravitational compression of a gas-dust cloud about <u>4.57 billion years ago</u>.<br><br>
-            The four planets closest to the Sun are the terrestrial planets:<br><u>Mercury, Venus, Earth and
-            Mars</u>.<br>
-            The four planets more distant from the Sun are giant planets:<br><u>Jupiter, Saturn, Uranus and Neptune</u>.<br><br>
-            There are two regions in the Solar System filled with small bodies.<br>
-            The asteroid belt located between Mars and Jupiter and beyond the orbit of Neptune are trans-Neptunian
-            objects.<br><br>
-            The solar system is part of the structure of the Milky Way galaxy.<br>
-        </p>
-
+    <div id="tabCap" onclick="changeText()">
+        <p><i><b>Greetings, young space lover</b></i><br>Here is information about the solar system.<br><br>To change the language - <u>right button</u><br>Overview of the solar system - <u>left button</u></p>
     </div>
 
     <div class="button">
         <meta charset="utf-8">
         <form action="emulation.html" target="_blank">
-            <button class="custom-btn btn-1">Solar Simulation</button>
+            <button id="solarSimulation">Simulation</button>
+            <button id="changeLang" onclick="changeText()">English</button>
         </form>
     </div>
 
-    <div class="description">
+    <div id="tabGeneral">
+        <h3>The solar system</h3>
+        <p>This's a planetary system that includes the central star the Sun and all natural space objects in heliocentric orbits.<br> It was formed by gravitational compression of a gas-dust cloud about 4.57 billion years ago.<br><br> <u>The four planets closest to the Sun are the terrestrial planets:</u><br> Mercury, Venus, Earth and Mars.<br><br> <u>The four planets more distant from the Sun are giant planets:</u><br> Jupiter, Saturn, Uranus and Neptune.<br><br> There are two regions in the Solar System filled with small bodies.<br><br> The asteroid belt located between Mars and Jupiter and beyond the orbit of Neptune are trans-Neptunian objects.<br><br> The solar system is part of the structure of the Milky Way galaxy.<br></p>
+    </div>
+
+    <div id="tabDescSys">
         <h3>The main objects of the solar system</h3>
     </div>
 
-    
     <div class="inner">
-        <div class="sun">
+        <div id="sun">
             <img src="icon/1_sun.png" alt="Solar" class="img">
             <h3>Sun</h3>
             <h4>Star</h4>
-            <p>Center Solar system</p>
-            <p>Equator: 4,37⋅10^6</p>
-            <p>Value: 1,40⋅10^27</p>
-            <p>Mass: 1,98⋅10^30</p>
-            <p>Satellite: 8</p>
+            <p>Center Solar system<br>Equator: 4,37⋅10^6<br>Value: 1,40⋅10^27<br>Mass: 1,98⋅10^30<br>Satellite: 8</p>
         </div>
 
-        <div class="mercury">
+        <div id="mercury">
             <img src="icon/2_mercury.png" alt="Solar" class="img">
             <h3>Mercury</h3>
-            <h4>Earth gorup planet</h4>
-            <p>1 planet</p>
-            <p>Equator: 15329</p>
-            <p>Value: 6,08⋅10^10</p>
-            <p>Mass: 3,33⋅10^23</p>
-            <p>Satellite: 0</p>
+            <h4>Earth group planet</h4>
+            <p>1 planet<br>Equator: 15329<br>Value: 6,08⋅10^10<br>Mass: 3,33⋅10^23<br>Satellite: 0</p>
         </div>
 
-        <div class="venus">
+        <div id="venus">
             <img src="icon/3_venus.png" alt="Solar" class="img">
             <h3>Venus</h3>
-            <h4>Earth gorup planet</h4>
-            <p>2 planet</p>
-            <p>Equator: 38025</p>
-            <p>Value: 9,38⋅10^11</p>
-            <p>Mass: 4,86⋅10^24</p>
-            <p>Satellite: 0</p>
+            <h4>Earth group planet</h4>
+            <p>2 planet<br>Equator: 38025<br>Value: 9,38⋅10^11<br>Mass: 4,86⋅10^24<br>Satellite: 0</p>
         </div>
 
-        <div class="earth">
+        <div id="earth">
             <img src="icon/4_earth.png" alt="Solar" class="img">
             <h3>Earth</h3>
-            <h4>Earth gorup planet</h4>
-            <p>3 planet</p>
-            <p>Equator: 40075</p>
-            <p>Value: 10,08⋅10^12</p>
-            <p>Mass: 5,97⋅10^24</p>
-            <p>Satellite: 1</p>
+            <h4>Earth group planet</h4>
+            <p>3 planet<br>Equator: 40075<br>Value: 10,08⋅10^12<br>Mass: 5,97⋅10^24<br>Satellite: 1</p>
         </div>
 
-        <div class="mars">
+        <div id="mars">
             <img src="icon/6_mars.png" alt="Solar" class="img">
             <h3>Mars</h3>
-            <h4>Giant planet</h4>
-            <p>4 planet</p>
-            <p>Equator: 21343</p>
-            <p>Value: 1,63⋅10^11</p>
-            <p>Mass: 6,41⋅10^23</p>
-            <p>Satellite: 2</p>
+            <h4>Earth group planet</h4>
+            <p>4 planet<br>Equator: 21343<br>Value: 1,63⋅10^11<br>Mass: 6,41⋅10^23<br>Satellite: 2</p>
         </div>
 
-        <div class="jupiter">
+        <div id="jupiter">
             <img src="icon/8_jupiter.png" alt="Solar" class="img">
             <h3>Jupiter</h3>
             <h4>Giant planet</h4>
-            <p>5 planet</p>
-            <p>Equator: 439264</p>
-            <p>Value: 1,43⋅10^15</p>
-            <p>Mass: 1,89⋅10^27</p>
-            <p>Satellite: 95</p>
+            <p>5 planet<br>Equator: 439264<br>Value: 1,43⋅10^15<br>Mass: 1,89⋅10^27<br>Satellite: 95</p>
         </div>
 
-        <div class="saturn">
+        <div id="saturn">
             <img src="icon/9_saturn.png" alt="Solar" class="img">
             <h3>Saturn</h3>
             <h4>Giant planet</h4>
-            <p>6 planet</p>
-            <p>Equator: 378675</p>
-            <p>Value: 8,27⋅10^14</p>
-            <p>Mass: 5,68⋅10^26</p>
-            <p>Satellite: 83</p>
+            <p>6 planet<br>Equator: 378675<br>Value: 8,27⋅10^14<br>Mass: 5,68⋅10^26<br>Satellite: 83</p>
         </div>
 
-        <div class="uranus">
+        <div id="uranus">
             <img src="icon/10_uranus.png" alt="Solar" class="img">
             <h3>Uranus</h3>
             <h4>Giant planet</h4>
-            <p>7 planet</p>
-            <p>Equator: 51118</p>
-            <p>Value: 6,83⋅10^13</p>
-            <p>Mass: 8,68⋅10^25</p>
-            <p>Satellite: 27</p>
+            <p>7 planet<br>Equator: 51118<br>Value: 6,83⋅10^13<br>Mass: 8,68⋅10^25<br>Satellite: 27</p>
         </div>
 
-        <div class="neptune">
+        <div id="neptune">
             <img src="icon/11_neptune.png" alt="Solar" class="img">
             <h3>Neptune</h3>
             <h4>Giant planet</h4>
-            <p>8 planet</p>
-            <p>Equator: 49528</p>
-            <p>Value: 6,25⋅10^13</p>
-            <p>Mass: 10,02⋅10^26</p>
-            <p>Satellite: 14</p>
+            <p>8 planet<br>Equator: 49528<br>Value: 6,25⋅10^13<br>Mass: 10,02⋅10^26<br>Satellite: 14</p>
         </div>
 
-        <div class="pluto">
+        <div id="pluto">
             <img src="icon/12_pluto.png" alt="Solar" class="img">
             <h3>Pluto</h3>
             <h4>Trans-Neptunian</h4>
-            <p>9 planet</p>
-            <p>Equator: 2370</p>
-            <p>Value: 7⋅10^9</p>
-            <p>Mass: 1,30⋅10^22</p>
-            <p>Satellite: 5</p>
+            <p>9 planet<br>Equator: 2370<br>Value: 7⋅10^9<br>Mass: 1,30⋅10^22<br>Satellite: 5</p>
         </div>
 
-        <div class="moon">
+        <div id="moon">
             <img src="icon/5_moon.png" alt="Solar" class="img">
             <h3>Moon</h3>
             <h4>Satellite Earth</h4>
-            <p>Satellite</p>
-            <p>Equator: 10920</p>
-            <p>Value: 2,19⋅10^10</p>
-            <p>Mass: 7,34⋅10^22</p>
-            <p>Satellite: 0</p>
+            <p>Satellite<br>Equator: 10920<br>Value: 2,19⋅10^10<br>Mass: 7,34⋅10^22<br>Satellite: 0</p>
         </div>
 
-        <div class="ceres">
+        <div id="ceres">
             <img src="icon/7_ceres.png" alt="Solar" class="img">
             <h3>Ceres</h3>
             <h4>Dwarf planet</h4>
-            <p>Asteroid belt</p>
-            <p>Equator: 481,5</p>
-            <p>Value: 418⋅10^6</p>
-            <p>Mass: 9,39⋅10^20</p>
-            <p>Satellite: 0</p>
+            <p>Asteroid belt<br>Equator: 481,5<br>Value: 418⋅10^6<br>Mass: 9,39⋅10^20<br>Satellite: 0</p>
         </div>
 
-        <div class="eris">
+        <div id="eris">
             <img src="icon/13_eris.png" alt="Solar" class="img">
             <h3>Eris</h3>
             <h4>Dwarf planet</h4>
-            <p>Scattered disk</p>
-            <p>Equator: 2326</p>
-            <p>Value: 6,58⋅10^9</p>
-            <p>Mass: 1,68⋅10^22</p>
-            <p>Satellite: 1</p>
+            <p>Scattered disk<br>Equator: 2326<br>Value: 6,58⋅10^9<br>Mass: 1,68⋅10^22<br>Satellite: 1</p>
         </div>
     </div>
-    <div class="quest">
+    <div id="quest">
         <h4>Question:</h4>
-        <p>Why does the sun have 8 satellites?</p>
+        <p>Why does the Sun have 8 satellites?</p>
+    </div>
+    <div id="answer">
         <h4>Answer:</h4>
         <p>
             The Sun certainly has more satellites, <br>
             but I counted only the main planets as satellites:<br>
-            Mercury, Venus, Earth, Mars, <br>Saturn, Uranus, Neptune and Pluto</p>
+            Mercury, Venus, Earth, Mars, <br>Jupiter, Saturn, Uranus and Neptune</p>
         </h4>
 
     </div>
-    <h3><br>Information</h3>
-    <h4>Creator site and bot</h4>
-    <p> Telegram: <a href="https://t.me/vlad_prin">Vladimir Prin</a></p>
-    <p> GitHub: <a href="https://github.com/AstraL13666">Link</a></p>
-    <p>GitLab: <a href="https://gitlab.skillbox.ru/vladimir_kotov_1/">Link</a></p>
-    <h4>Icon</h4>
-    <a href="https://www.iconfinder.com/iconsets/solar_system_png">Iconset: Solar system icons</a>
-    <h4>Simulation solar system</h4>
-    <p>Taken and adapted from
-        <a href="https://terminalroot.com/solar-system-made-with-html-css-and-pure-javascript/">Resource</a></p>
-    <h4><br>Thank you for using my bot!</h4>
+
+    <div id="tabInfo">
+        <h3><br>Information</h3>
+        <h4>Creator site and bot</h4>
+        <p> Telegram: <a href="https://t.me/vlad_prin">Vladimir Prin</a><br> GitHub: <a href="https://github.com/AstraL13666">Link</a><br> GitLab: <a href="https://gitlab.skillbox.ru/vladimir_kotov_1/">Link</a></p>
+    </div>
+    <div id="tabIconSet">
+        <h4>Icon</h4>
+        <a href="https://www.iconfinder.com/iconsets/solar_system_png">Iconset: Solar system icons</a>
+    </div>
+    <div id="tabSolarSimulation">    
+        <h4>Simulation solar system</h4>
+        <p>Taken and adapted from <a href="https://terminalroot.com/solar-system-made-with-html-css-and-pure-javascript/">Resource</a></p>
+    </div>
+    <div id="buttomText">
+        <h4><br>Thank you for using my bot!</h4>
+    </div>
 </div>
 
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
 <script src="app.js"></script>
+<script src="scr_change.js"></script>
 
 </body>
 </html>
-
