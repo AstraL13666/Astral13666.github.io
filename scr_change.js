@@ -84,19 +84,19 @@ function changeText() {
         planetSunDesc.innerHTML = "<p>Центр системы<br>Экватор: 4,37⋅10^6<br>Объём: 1,40⋅10^27<br>Масса: 1,98⋅10^30<br>Спутников: 8</p>"
 
         planetMerName.innerText = "Меркурий"
-        planetMerType.innerText = "Планета земной группы"
+        planetMerType.innerText = "Земной группа"
         planetMerDesc.innerHTML = "<p>1 планета<br>Экватор: 15329<br>Объём: 6,08⋅10^10<br>Масса: 3,33⋅10^23<br>Спутников: 0</p>"
 
         planetVenName.innerText = "Венера"
-        planetVenType.innerText = "Планета земной группы"
+        planetVenType.innerText = "Земной группа"
         planetVenDesc.innerHTML = "<p>2 планета<br>Экватор: 38025<br>Объём: 9,38⋅10^11<br>Масса: 4,86⋅10^24<br>Спутников: 0</p>"
 
         planetEarName.innerText = "Земля"
-        planetEarType.innerText = "Планета земной группы"
+        planetEarType.innerText = "Земной группа"
         planetEarDesc.innerHTML = "<p>3 планета<br>Экватор: 40075<br>Объём: 10,08⋅10^12<br>Масса: 5,97⋅10^24<br>Спутников: 1</p>"
 
         planetMarName.innerText = "Марс"
-        planetMarType.innerText = "Планета земной группы"
+        planetMarType.innerText = "Земной группа"
         planetMarDesc.innerHTML = "<p>4 планета<br>Экватор: 21343<br>Объём: 1,63⋅10^11<br>Масса: 6,41⋅10^23<br>Спутников: 2</p>"
 
         planetJupName.innerText = "Юпитер"
