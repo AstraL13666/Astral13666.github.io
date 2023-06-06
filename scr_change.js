@@ -147,7 +147,7 @@ function changeText() {
 
     } else {
         changeButton.innerText = "English"
-        simulationButton.innerText = "Solar Simulation"
+        simulationButton.innerText = "Simulation"
 
         tabCap.innerHTML = "<p><i><b>Greetings, young space lover</b></i><br>Here is information about the solar system.<br><br>To change the language - <u>right button</u><br>Overview of the solar system - <u>left button</u></p>"
         tabGenTitle.innerHTML = "THE SOLAR SYSTEM"
